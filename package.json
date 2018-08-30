@@ -1,6 +1,7 @@
 {
   "name": "framework7",
   "scripts": {
+    "build:quicksand": "npm run build-core:prod -- --config quicksand/build-config.js --output ./quicksand/dist",
     "build:dev": "cross-env-shell NODE_ENV=development \"gulp build-core && gulp phenome && gulp build-vue && gulp build-react\"",
     "build:prod": "cross-env-shell NODE_ENV=production \"gulp build-core && gulp phenome && gulp build-vue && gulp build-react\"",
     "build-core:dev": "cross-env NODE_ENV=development gulp build-core",
