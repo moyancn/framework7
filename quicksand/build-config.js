@@ -109,8 +109,7 @@ const config = {
     ],
     darkTheme: true,
     themes: [
-        'ios',
-        'md',
+        'ios'
     ],
     ios: {
         themeColor: '#424242',
